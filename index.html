@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,800;1,300;1,500;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onmouseover="pozycja()">
+    <!-- Nav - do poprawki najechanie myszką na góre w skrypcie  -->
+    <nav class="nav">
+        <div class="logo">
+            <h1>Moja strona</h1>
+        </div>
+        <div class="odnosniki">
+            <ul>
+                <a href="#"><li>Strona główna</li></a>
+                <a href="#"><li>O mnie</li></a>
+                <a href="#"><li>Moje doświadczenie</li></a>
+                <a href="#"><li>Oferta</li></a>
+                <a href="#"><li>Kontakt</li></a>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="imie">
+            <h1>Filip Marek</h1>
+            <h3>Front-End Developer</h3>
+            <a href="#">O mnie</a>
+            <a href="#">Kontakt</a>
+        </div>
+        <p>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </p>
+    </header>
+    <div class="ja">
+        <div class="zdjecie">
+            <img src="https://lh3.googleusercontent.com/P35IE1qeuA5xe4hfNzboR5yKbQfCKE5OY-EQXziKdkriZmDxdV3wsWRU8-XIXrJRZkBIP4G4TAkCKNCm_MGv7u3qDddRreX35KkQBqSR" alt="">
+        </div>
+        <div class="prawo">
+            <h1>O mnie</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, sequi! Totam architecto ea sapiente officia neque inventore deleniti beatae facilis. Odio dicta distinctio vitae officia laborum saepe quam eligendi hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati facilis, vero ad quasi quod, ea similique omnis temporibus, numquam neque beatae consectetur repellendus quos tenetur enim corporis minus ratione.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, dicta. Consequuntur deserunt ducimus tempora sequi? Temporibus iure, laudantium repellendus voluptatum blanditiis nisi fugit cum harum reprehenderit autem accusamus explicabo culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora facilis, aspernatur quam ad cum doloribus quis dignissimos laudantium placeat quo dicta eum consequuntur id libero quas beatae ut temporibus est.</p>
+        </div>
+    </div>
+    <div class="doswiadczenie">
+        <h1>Moje doświadczenie</h1>
+        <div class="exp">
+            <div class="lewo">
+                <div class="kolko"><i class="fa-solid fa-school"></i></div>
+                <h2>Info 1</h2>
+                <hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo tenetur voluptate voluptates saepe magni quam, ipsa aliquid provident vero voluptatibus perspiciatis maiores, illum culpa nostrum expedita! Repudiandae nesciunt similique maxime?</p>
+            </div>
+            <div class="srodek">
+                <div class="kolko"><i class="fa-solid fa-check"></i></div>
+                <h2>Info 2</h2>
+                <hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt vel amet deleniti, sed sunt laudantium provident. Sed consectetur aliquid enim, numquam dicta, culpa cumque voluptate sint necessitatibus asperiores natus? Exercitationem?</p>
+            </div>
+            <div class="prawo">
+                <div class="kolko"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h2>Info 3</h2>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor nihil vitae illum dolore molestiae sunt fugit deserunt, accusamus ratione provident nesciunt iste a magnam quos est eum, nulla esse dicta?</p>
+            </div>
+        </div>
+    </div>
+    <!-- Oferta - do mocnej poprawki -->
+    <div class="oferta">
+        <div class="kwadrat1" onmouseover="najechanie(2)" onmouseout="zjechanie(2)">
+            <div class="box box1">
+                <div class="romb"><i class="fa-solid fa-house"></i> </div>
+                <br>
+                <hr>
+                <h1>Lorem ipsum dolor sit amet</h1>
+            </div>
+            <div class="box box2">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis impedit enim optio ad, quaerat natus soluta earum laboriosam illum, suscipit alias architecto quam commodi exercitationem amet fugit corrupti dolorum?</p>
+            </div>
+        </div>
+        <div class="kwadrat2" onmouseover="najechanie(4)" onmouseout="zjechanie(4)">
+            <div class="box box3">
+                <div class="romb"><i class="fa-solid fa-house"></i> </div>
+                <br>
+                <hr>
+                <h1>Lorem ipsum dolor sit amet</h1>
+            </div>
+            <div class="box box4">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate debitis impedit enim optio ad, quaerat natus soluta earum laboriosam illum, suscipit alias architecto quam commodi exercitationem amet fugit corrupti dolorum?</p>
+            </div>
+        </div>
+    </div>
+    <div class="kontakt">
+        <div class="left">
+            <h1>
+                <div class="circle"><i class="fa-solid fa-house"></i> </div>Dane adresowe
+            </h1>
+            <h1>
+                <i class="fa-solid fa-location-pin" style="margin-right: 18px;"></i>
+                Kraków ul. Krakowska 1
+            </h1>
+            <h1>
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:#">abcd1234@gmail.com</a>
+            </h1>
+            <h1>
+                <i class="fa-solid fa-phone"></i>
+                <a href="tel:+#">+48 123 456 789</a>
+            </h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d68936.3156224858!2d19.93133769017148!3d50.05143218592666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644c0354e18d1%3A0xb46bb6b576478abf!2zS3Jha8Ozdw!5e0!3m2!1spl!2spl!4v1675176123947!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="right">
+            <h1>
+                Napisz do mnie! <div class="circle"><i class="fa-solid fa-pen"></i></div>
+            </h1>
+            <p>Imię i nazwisko</p>
+            <input type="text">
+            <p>Twój e-mail</p>
+            <input type="email" name="email">
+            <p>Twoja wiadomość</p>
+            <textarea name="wiad"></textarea>
+            <div class="btn">
+                <input type="button" value="Wyślij">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>Moja strona</h2>
+        <div class="odnosniki2">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>© 2023 Filip Marek. All rights reserved</p>
+        <p>Strona korzysta z plików cookies w celu realizacji usług i zgodnie z Polityką Prywatności i Cookies. Możesz określić warunki przechowywania lub dostępu do plików cookies w Twojej przeglądarce.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c23749049e.js" crossorigin="anonymous"></script>
+</body>
+</html>
